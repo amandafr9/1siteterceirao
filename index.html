@@ -3,135 +3,189 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Vingadores</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Amanda</title>
 </head>
 
 <body>
-    <header class=" p-5">
-
-        <nav class="container d-flex justify-content-between align-items-center" >
-            <img src="./img/filmeslogo.png" class="container__imagem1" loading="lazy">
-            <ul class="nav mt-5">
-                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-            </ul>
-            <div id="acessibilidade" class="menu-acessibilidade"> 
-                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
-                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
-                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
-                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
-                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
-                </div>
-            </div>
-        </nav>
-       
+    <header class="container text-center">
+        <img src="img/um-avatar-para-o-meu-facebook-com-oculos-de-cabelo-castanho-e-um-sorriso-bonito-em-uma-camiseta-de-fundo-branco_969863-10087.avif" alt="avatar da Amanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">_Meu nome é Amanda_</p>
+        <h1>Eu tenho aula de Programação</h1>
+        <p>Eu sou estudante do 2º ano do Ensino Médio. Estou tendo aulas de programação pelo novo ensino. Aprendemos 
+            a fazer sites usando HTML, CSS, entre outros. Veja os projetos
+            que já realizei!</p>
+            
+        <p>Meus Conhecimentos</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">VS-code</p>
+            <p class="badge bg-secondary">Alura</p>
+        </div>
     </header>
-
-
-    <main class="container my-5">
-
-        <section id="inicio" class="my-5">
-            <div class="inicio-fundo d-flex justify-content-between align-items-center">
-                <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-white fst-italic fw-bold">Os Vingadores</h1>
-                    <img src="img/avengers.webp" class="mb-3" width="563"
-                        height="278" loading="lazy">
-                    <a href="#tropicalia"
-                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
-                        conhecer!</a>
-                </div>
-               
-
-              </div>
-        </section>
-
-        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
-            <div class="container d-flex align-items-center ">
-                <div class="col-4 d-flex justify-content-center ">
-                    <img src="img/image (1).png" class="rounded-pill" width="273" height="331" loading="lazy">
-                </div>
-                <div class="col-5">
-                    <h2>O que foi a Tropicália?</h2>
-                    <p class="p-2">A Tropicália, também conhecida como Tropicalismo, foi um movimento cultural
-                        brasileiro que surgiu na década de 1960, tendo seu auge entre 1967 e 1968. Esse movimento
-                        abrangeu várias expressões artísticas, como a música, o cinema, o teatro e as artes plásticas, e
-                        teve como principal característica a mistura de elementos da cultura brasileira tradicional com
-                        influências estrangeiras, especialmente do rock e da música pop. Fonte: Site Toda a matéria</p>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/padaria.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Padaria Doce Sonho</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos tipos de pães
+                            que são vendidos, incluindo informações sobre a padaria, fotos para ilustrar o tipo de pães que a padaria oferece. 
+                            A página é estilizada com CSS para uma boa visualização.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
-            <h2 class="text-center pt-5">Galeria</h2>
-            <div class="container p-3 mt-3 fundo-galeria ">
-
-                <div class="row justify-content-md-center">
-                    <div class="col-md-4">
-                        <img src="img/lossy-page1-640px-Jorge_Ben_e_o_Trio_Mocotó_no_Teatro_da_Lagoa,_1971.tif.jpg"
-                            class="img-fluid rounded-5" loading="lazy">
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/cineflix.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">CineFlix: site de filmes e séries</h5>
+                        <p class="card-text">Este projeto é um site para assinar filmes e séries, com aplicativo e informações
+                            sobre todo o entretenimento, ele faz com que você tenha seu cinema em casa.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
                     </div>
-                    <div class="col-md-4">
-                        <img src="img/lossy-page1-640px-Os_Mutantes_2.tif.jpg" class="img-fluid rounded-5"
-                            loading="lazy">
-                    </div>
-                </div>
-                <div class="row mt-4  justify-content-md-center">
-                    <div class="col-md-4">
-                        <img src="img/lossy-page1-640px-Gilberto_Gil_nos_anos_1960.tif.jpg" class="img-fluid rounded-5" loading="lazy">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/lossy-page1-640px-Caetano_Veloso_no_III_Festival_da_Música_Popular.tif.jpg"
-                            class="img-fluid rounded-5" loading="lazy">
-                    </div>
-                </div>
-             </div>
-        </section>
-
-        <section id="contato">
-            <div class="container p-5 d-flex justify-content-center">
-                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
-                    <h2 class="mb-3">Entre em contato</h2>
-                    <form>
-                        <div class="form-group mb-3">
-                            <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
-                                placeholder="Digite seu nome completo">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
-                                placeholder="Digite seu email">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
-                                placeholder="Escreva sua mensagem"></textarea>
-                        </div>
-                        <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
-                                mensagem</button>
-                        </div>
-                    </form>
                 </div>
             </div>
-        </section>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/cards.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">FlashCards: Jogo Interativo 
+                        </h5>
+                        <p class="card-text">Este projeto de cards cria um jogo interativo de perguntas e respostas sobre futebol e filme, 
+                            oque permite os usuários ter novas informações sobre esses assuntos de uma forma dinâmica.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="text-center p-3 fst-italic">
-        <p>Acesse nossas redes:</p>
-        <i class="bi bi-whatsapp"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-tiktok"></i>
-        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Padaria Doce Sonho</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A Padaria Doce Sonho lançou um site encantador, desenvolvido com HTML e CSS, para apresentar seus deliciosos pães. 
+                        A interface é limpa e acolhedora, com um cabeçalho que exibe o logotipo e um menu de navegação simples.
+                    </p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos.</p>
+                    <p>Na página inicial, imagens vibrantes destacam pães populares, como baguetes e pães doces, acompanhadas de descrições
+                         dos ingredientes. O site também apresenta promoções da semana e depoimentos de clientes satisfeitos.</p>
+                    <p>
+                        Com um layout responsivo, o site é acessível em dispositivos móveis, permitindo que os clientes naveguem e façam pedidos
+                         facilmente. Cores quentes e elementos visuais criam uma atmosfera convidativa. Um formulário de contato permite que os 
+                         clientes enviem dúvidas. Assim, o site oferece uma experiência online memorável, convidando todos a saborear as delícias da Doce Sonho.</p>
+                    <img src="img/padaria.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://amandafr9.github.io/site-escola/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/amandafr9/site-escola.git">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">CineFlix: site de filmes e séries</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um novo site foi criado para facilitar a vida dos amantes de filmes e séries, desenvolvido com HTML e CSS. A plataforma 
+                        oferece informações sobre serviços de assinatura, aplicativos disponíveis e uma ampla seleção de títulos.
+                    </p>
+                    <p>Com uma interface moderna e intuitiva, o site destaca as principais plataformas de streaming, como Netflix e Amazon Prime 
+                        Video. A página inicial apresenta lançamentos recentes, resenhas e descrições detalhadas dos filmes e séries.
+                    </p>
+                    <p>Uma seção dedicada a aplicativos fornece orientações sobre como acessar os serviços em diferentes dispositivos. O site 
+                        também inclui um blog com artigos sobre tendências do entretenimento, análises e dicas.
+                    </p>
+                    <p>O layout responsivo garante acessibilidade em dispositivos móveis, enquanto cores vibrantes criam uma atmosfera envolvente. 
+                        Um formulário de contato permite o envio de dúvidas ou sugestões. Essa plataforma é um recurso valioso para quem deseja explorar 
+                        novas opções de entretenimento.
+
+                    </p>
+                    <img src="img/cineflix.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://amandafr9.github.io/outro-site/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/amandafr9/outro-site.git">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">FlashCards: Jogo Interativo </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um novo site foi desenvolvido em HTML e CSS, oferecendo uma experiência interativa com flashcards de perguntas e 
+                        respostas sobre filmes e futebol. Os usuários podem escolher entre os dois temas e explorar uma tela cheia de flashcards
+                         coloridos, onde as perguntas aparecem ao clicar, revelando as respostas na sequência.
+                    </p>
+                    <p>O site inclui um sistema de pontuação que permite aos usuários acompanhar seu desempenho e competir com amigos. Há também um modo de “desafio rápido” para responder a perguntas em tempo limitado. Com um layout responsivo, o site funciona bem em dispositivos móveis e desktops, garantindo acessibilidade em qualquer lugar.</p>
+                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch,
+                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
+                        no pensamento computacional e na exploração de conceitos científicos de forma
+                        interativa. O uso de cenários, movimentos, e diálogos dinâmicos ajuda a criar uma
+                        experiência de aprendizado mais rica e memorável, encorajando os usuários a explorar e
+                        interagir com o conteúdo de maneira ativa, em vez de passivamente.</p>
+                    <img src="img/cards.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href=" https://amandafr9.github.io/4.site/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/amandafr9/4.site.git">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Elaborado por Amanda Ferreira</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
-    <script src="script.js"></script>
-  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
