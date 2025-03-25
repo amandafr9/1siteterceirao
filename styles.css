@@ -28,13 +28,9 @@ section {
     font-weight: 600;
 }
 
-.container__imagem1{
-    width: 55%;
-}
-
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/avengers.webp');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -45,6 +41,14 @@ section {
     margin: 0 auto;
 }
 
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
 
 
 .esquerda-conteudo {
